@@ -1,0 +1,39 @@
+<html>
+
+<head>
+    <title>Bookmark</title>
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1 class=" fw-bold mt-5">Bookmark</h1>
+
+        <div class="bg-gray py-5 text-center ">
+            <h3 class=" mb-4">Bookmark your favorite sites </h3>
+
+            <label for="siteName">Site Name</label>
+            <input type="text" name="" id="siteNameInput" placeholder="Bookmark name" class="form-control  mt-1 ">
+            <p class="alert mt-2 mb-4   text-center d-none bg-danger text-white py-1" id="nameError">Name is required
+            </p>
+
+            <label for="siteUrlInput" class="mt-3">Site URL</label>
+            <input type="text" name="" id="siteUrlInput" placeholder="Website URL" class="form-control mt-1 ">
+            <p class="alert mt-2 mb-4  text-center text-white d-none bg-danger py-1" id="urlError">URL is required</p>
+
+            <button onclick="   addSite() " class="btn btn-info mt-3">Submit</button>
+
+            <!-- <button type="submit" onclick="addSite();" class=" btn btn-info" >Submit</button> -->
+        </div>
+        <div class="sit-output" id="siteOutput">
+
+
+        </div>
+
+        <script src="js/main.js"></script>
+
+</body>
+
+</html>

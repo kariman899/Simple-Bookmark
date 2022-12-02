@@ -1,0 +1,27 @@
+h1 {
+    color:#999;
+    border-bottom: 1px solid #999;
+    padding-bottom: 15px;
+    
+}
+.bg-gray {
+/* background-color: #EEE; */
+background-image:linear-gradient(#EEE,#FFF);
+
+}
+.bookmark-inputs label {
+    font-weight: 600;
+}
+.alert {
+    width: 80%;
+    margin: auto;
+}
+.form-control {
+    width: 80%;
+    margin: auto;
+}
+
+.row {
+    margin-right: 0px;
+    margin-left: 0px;
+}
